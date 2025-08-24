@@ -1,10 +1,10 @@
-# flutter_application_1
+# Simple Flutter App
 
-A new Flutter project.
+This is a simple cross-plattform (ios/android) app based on flutters "get started documentation" with some custom modifications, such as navigation bar, login, registration, joining rooms by codes.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flut0ter application.
 
 A few resources to get you started if this is your first Flutter project:
 

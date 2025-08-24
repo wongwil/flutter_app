@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/favorites_page.dart';
 import 'package:flutter_application_1/pages/generator_page.dart';
+import 'package:flutter_application_1/pages/room_menu_page.dart';
 
 class MyHomePage extends StatefulWidget {
   @override
@@ -19,6 +20,8 @@ class _MyHomePageState extends State<MyHomePage> {
         page = GeneratorPage();
       case 1:
         page = FavoritesPage();
+      case 2:
+        page = RoomMenuPage();
       default:
         throw UnimplementedError('no widget for $selectedIndex');
     }
@@ -54,6 +57,10 @@ class _MyHomePageState extends State<MyHomePage> {
                             NavigationRailDestination(
                               icon: Icon(Icons.favorite),
                               label: Text('Favorites'),
+                            ),
+                            NavigationRailDestination(
+                              icon: Icon(Icons.meeting_room),
+                              label: Text('Room'),
                             ),
                           ],
                           selectedIndex: selectedIndex,
