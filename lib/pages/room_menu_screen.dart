@@ -24,7 +24,7 @@ class RoomMenuScreen extends StatelessWidget {
             padding: const EdgeInsets.all(8.0),
             child: ElevatedButton.icon(
               icon: Icon(Icons.create),
-              label: Text('Create new room'),
+              label: Text('Create a new room'),
               onPressed: () {
                 onCreate(username);
               },
